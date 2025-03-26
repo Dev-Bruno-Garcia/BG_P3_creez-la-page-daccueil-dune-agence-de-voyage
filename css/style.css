@@ -51,27 +51,27 @@ ul {
   line-height: 0;
 }
 
-.card {
+.hebergement__card, .populaire__card{
   display: flex;
   border-radius: 20px;
   background-color: #fff;
   filter: drop-shadow(0 3px 14px rgba(0, 0, 0, 0.1));
 }
 
-.card-link {
+.populaire__card-link {
   border-radius: 20px;
 }
 
-.card img {
+.populaire__card-img {
   object-fit: cover;
 }
 
-.card-title {
+.populaire__card-title {
   font-size: 16px;
   font-weight: 700;
 }
 
-.card-subtitle {
+.populaire__card-subtitle {
   font-size: 13px;
   margin-top: 0;
 }
@@ -91,7 +91,7 @@ input {
 }
 
 /*********** HOOVER & FOCUS ***********/
-.btn-navbar:hover {
+.btn__navbar:hover {
   color: #0065fc;
   border-top: 2px solid #0065fc;
   padding-top: 13px;
@@ -114,13 +114,13 @@ footer a:hover {
 header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5px;
+  margin:  .875rem 0rem  0rem;
 }
 
 header img {
   width: 70px;
   height: 40px;
-  margin: 30px 30px;
+  margin: 0 ;
 }
 
 .navbar {
@@ -273,17 +273,17 @@ header img {
   width: 65%;
 }
 
-.hebergements .hebergment-card {
+.hebergements .hebergement__card {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.hebergements .card-link {
+.hebergements .hebergement__card-link {
   width: calc((1 / 3) * (100% - 60px));
 }
 
-.hebergements .card {
+.hebergements .hebergement__card {
   flex-direction: column;
   height: 100%;
  
@@ -297,13 +297,13 @@ header img {
   border-radius: 20px 20px 0 0;
 }
 
-.hebergements .card-content {
+.hebergements .hebergement__card-content {
   display: flex;
   flex-direction: column;
   padding: 0 14px;
 }
 
-.hebergements .card-rating {
+.hebergements .hebergement__card-rating {
   width: 80px;
   display: flex;
   justify-content: space-between;
@@ -380,17 +380,17 @@ header img {
   border-radius: 20px 20px 0 0;
 }
 
-.activites .cards-activites {
+.activites .activites__cards {
   display: flex;
   width: 100%;
   gap: 30px;
 }
 
-.activites .card {
+.activites .activite__card {
   flex-direction: column;
 }
 
-.activites .card-link {
+.activites .activite__card-link {
   width: 100%;
 }
 
