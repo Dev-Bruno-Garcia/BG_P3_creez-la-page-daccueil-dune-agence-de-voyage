@@ -136,32 +136,32 @@ header img {
 
 /*********** INFO & FILTER ***********/
 
-.research-bar {
+.research__bar {
   display: flex;
   justify-content: flex-start;
   margin-left: -3px;
 }
 
-.research-bar fieldset {
+.research__bar fieldset {
   display: flex;
   width: 368px;
 }
 
-.research-bar input {
+.research__bar input {
   width: 100%;
   text-align: center;
   border-top: 2px solid #f2f2f2;
   border-bottom: 2px solid #f2f2f2;
 }
 
-.research-bar input::placeholder {
+.research__bar input::placeholder {
   width: 100%;
   font-weight: 700;
   font-size: larger;
   color: black;
 }
 
-.research-bar i:first-child {
+.research__bar i:first-child {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -342,7 +342,7 @@ header img {
   border-radius: 20px 0 0 20px;
 }
 
-.populaires .card-content {
+.populaires .populaire__card-content {
   width: calc(2 * 100% / 3);
   display: flex;
   flex-direction: column;
@@ -351,7 +351,7 @@ header img {
   padding-right: 0.316px;
 }
 
-.populaires .card-rating {
+.populaires .populaire__card-rating {
   width: 68px;
   height: 12px;
   display: flex;
@@ -364,6 +364,7 @@ header img {
 
 .title-about {
   font-size: 17px;
+  color: brown;
 }
 
 /************* ACTIVITES A MARSEILLE *************/
@@ -525,7 +526,7 @@ footer ul {
   .navbar-btn:focus {
      padding-bottom: 14px;
     padding-top: 0;
-    border-top: none;
+    /* border-top: none; */
     border-bottom: 2px solid #0065fc;
   }
 
