@@ -298,8 +298,6 @@ header img {
 }
 
 .hebergements .hebergement__card-content {
-  display: flex;
-  flex-direction: column;
   padding: 0 14px;
 }
 
@@ -309,7 +307,10 @@ header img {
   justify-content: space-between;
   height: 13px;
 }
-
+.hebergement__card-title {
+  font-size: 16px;
+  font-weight: 700;
+}
 /* Les plus populaires */
 .populaires {
   width: calc(35% - 40px);
