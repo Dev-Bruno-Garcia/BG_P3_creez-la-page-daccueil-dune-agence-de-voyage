@@ -1,0 +1,252 @@
+/*//////////////////// RESPONSIVE DESIGN ////////////////////*/
+/*********************** Media queries ***********************/
+/*//////////////////////////////////////////////////////////*/
+@media (max-width: 1024px) {
+    /* ---- Header ---- */
+    header {
+      width: 100%;
+    }
+  
+    /* ---- Filters ---- */
+    .filter-bar-btn-txt {
+      font-size: 16px;
+    }
+  
+    .block-filters {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+  
+    /* ---- Hébergemrnts ---- */
+    .hebergements-and-populaires {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+  
+    /* ---- Hébergements à Marseille ---- */
+    .hebergements {
+      width: 100%;
+    }
+  
+    /* ---- Populaires ---- */
+    .populaires {
+      width: 100%;
+      gap: 20px;
+    }
+  
+    .populaires .cards-container {
+      flex-direction: row;
+      gap: 20px;
+    }
+  
+    .populaires .card-link {
+      width: calc((100% - 40px) / 3);
+    }
+  
+    /* ---- Activites ---- */
+    .activites img {
+      height: /*200px*/ 140px;
+    }
+  
+    .activites h3 {
+      height: /*70px*/ 70px;
+    }
+  }
+  
+  /* Small devices (phones, less than 768px) */
+  @media screen and (max-width: 768px) {
+    /* ************************ Base ************************ */
+     main {
+      padding: 0;
+    }
+  
+    /* ************************ Header ************************ */
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header img {
+      margin: 30px;
+    }
+  
+    nav {
+      width: 100%;
+    }
+    h2 {
+      font-size: x-large;
+    }
+    .btn-search i {
+      display: block;
+    }
+    .btn-search span {
+      display: none;
+    }
+    .navbar {
+      margin: 0;
+      gap: 0;
+    }
+  
+    .navbar li {
+      width: 50%;
+      text-align: center;
+      padding-bottom: 15px;
+      border-bottom: 2px solid #deebff;
+    }
+  
+    .btn-navbar {
+      width: 55%;
+      padding-bottom: 15px;
+      text-align: center;
+      padding-top: 0;
+    }
+    .btn-navbar:hover {
+      border-top: none;
+      padding-bottom: 15px;
+      padding-top: 0;
+    }
+    .navbar li:hover {
+      padding-top: 0;
+      padding-bottom: 15px;
+      border-top: none;
+      border-bottom: 2px solid #0065fc;
+      width: 50%;
+    }
+  
+    /*/////////////////////// Info & Filters/////////////////////// */
+    .info-filter {
+      padding: 0 20px;
+    }
+  
+    /* ---- Button search ---- */
+    .search-bar fieldset {
+      width: 100%;
+    }
+  
+    .search-bar input {
+      text-align: left;
+      padding-left: 24px;
+    }
+  
+    .search-bar-btn {
+      border-radius: 15px;
+      margin-left: -15px;
+    }
+  
+    .search-bar-btn span {
+      display: none;
+    }
+  
+    .search-bar-btn i {
+      display: flex;
+      color: #fff;
+    }
+  
+    /*////////////////////////// Filters////////////////////////// */
+    .filter-bar {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .filter-bar-part {
+      gap: 10px;
+    }
+  
+    .filter-bar-btn {
+      width: calc(100% / 2);
+      justify-content: center;
+      padding: 0;
+    }
+  
+    .filterbar-btn-txt {
+      font-size: 13px;
+    }
+  
+    /*////////////////////// Hébergemrnts //////////////////////*/
+    .hebergements-and-populaires {
+      flex-direction: column-reverse;
+      gap: 15px;
+    }
+  
+    .hebergements,
+    .populaires {
+      border-radius: 0;
+    }
+  
+    /*//////////////////////// Populaires//////////////////////// */
+    .populaires {
+      padding: 30px 20px;
+      gap: 15px;
+    }
+  
+    .populaires .cards-container {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .populaires .card-link {
+      width: 100%;
+    }
+  
+    /* ---- Hébergements à Marseille ---- */
+    .hebergements {
+      padding: 20px;
+      gap: 15px;
+      background-color: white;
+    }
+  
+    .hebergements .cards-container {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .hebergements .card-link {
+      width: 100%;
+    }
+  
+    /*////////////////////// Activites////////////////////// */
+    .activites .cards-activites {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .activites img {
+      height: 141px;
+    }
+  
+    .activites h3 {
+      height: 58.88px;
+    }
+  
+    .activites .card-link {
+      width: 100%;
+    }
+  
+    /* //////////////////////// Footer //////////////////////// */
+    footer {
+      flex-direction: column;
+      padding: 30px 0 30px 30px;
+      margin: 34.88px 0 0 0;
+      
+    }
+  
+    footer section {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /*//////////////////////////////////////////////////////////////////////*/
+  
+  legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+  }
+  
+  input {
+    margin: 0.4rem;
+  }
+  
