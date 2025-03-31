@@ -13,7 +13,7 @@
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/responsive.css"> 
+  <link rel="stylesheet" href="./css/responsive.css">
   <script src="https://kit.fontawesome.com/fb8f314fce.js" crossorigin="anonymous"></script>
 </head>
 
@@ -42,30 +42,23 @@
         </h1>
         <p>
           En plein centre-ville ou en pleine nature
-        <div class="banner">
-          </p>
+        </p>
+        <div class="banner" style="display: flex; align-items: center;gap: 10px;">
+        <i class="fa-solid fa-info" style="display: grid; align-items: center; border: 2px solid  #0065fc; padding: 0.5rem; border-radius: 50%;"></i><p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
+        <fieldset>
+          <form class="researchBar" action="#" method="get">
+            <label for="researchBar">
+              <i class="fa-solid fa-location-dot"></i>
+            </label>
+            <input type="search" name="research" id="research" class="search-bar-txt" placeholder="Marseille, France">
+            <button type="submit" class="search-txt btn-search">
+              <span>Rechercher</span>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>      
+          </form>
+        </fieldset>
       </section>
-      <form class="researchBar" action="#" method="get">
-      
-          <label for="researchBar">
-            <i class="fa-solid fa-location-dot"></i>
-          </label>
-
-          <input
-            type="search"
-            name="research"
-            id="research"
-            class="search-bar-txt"
-            placeholder="Marseille, France"
-          >
-
-          <button type="submit" class="search-txt btn-search">
-            <span>Rechercher</span>
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </button>
-        
-      </form>
 
 
 
