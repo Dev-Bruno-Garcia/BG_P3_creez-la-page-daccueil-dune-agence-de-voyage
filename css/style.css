@@ -542,7 +542,8 @@ footer ul {
 
   /* ---- Button search ---- */
   .research-bar fieldset {
-    width: 100%;
+    width:100%;
+    background-color: brown;
   }
 
   .research-bar input {
