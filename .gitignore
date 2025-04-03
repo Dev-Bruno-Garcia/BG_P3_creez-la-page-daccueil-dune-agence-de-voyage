@@ -1,0 +1,50 @@
+# Ignore everything by default
+*
+
+# Allow specific files and directories
+!/.gitignore
+!/src/
+!/public/
+!/README.md
+!/package.json
+!/package-lock.json
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.old
+
+# Ignore archives
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore sensitive files
+secrets.json
+config.json
+# Ignore coverage reports
+coverage/
