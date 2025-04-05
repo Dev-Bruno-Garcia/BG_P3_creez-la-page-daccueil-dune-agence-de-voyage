@@ -1,0 +1,113 @@
+:root {
+    --main-color: #0065fc;
+    --main-bg-color: #f2f2f2;
+    --filter-bg-color: #ffdef4;
+    --pure-white: #fff;
+    --pink:#bd6ba1
+  }
+  
+  /***********BALISES ELEMENTAIRES***********/
+  * {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    padding: 0;
+  }
+  
+  html {
+    max-width: 91.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+  }
+  body {
+    background-color: #fff;
+    max-width: 90rem;
+    min-width: 20rem;
+    margin: auto;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3.125rem;
+    gap: 2.125rem;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .fa-solid, i{
+    color: #0065fc;
+    font-size: 1rem;
+  }
+  
+  .fa-xs {
+    line-height: 0;
+  }
+  
+  .hebergement-card, .populaire-card{
+    display: flex;
+    border-radius: 1.25rem;
+    background-color: #fff;
+    filter: drop-shadow(0 .1875rem .875rem rgba(0, 0, 0, 0.1));
+  }
+  
+  .populaire-card-link {
+    border-radius: 1.25rem;
+  }
+  
+  .populaire-card-img {
+    object-fit: cover;
+  }
+  
+  .populaire-card-title {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  
+  .populaire-card-subtitle {
+    font-size: .8125rem;
+    margin-top: 0;
+  }
+  
+  .euro {
+    font-weight: 600;
+  }
+  
+  .neutral-star {
+    color: #f2f2f2;
+  }
+  
+  
+  button,
+  input {
+    border: none;
+  }
+  
+  /*********** HOOVER & FOCUS ***********/
+  .btn-navbar:hover {
+    color: #0065fc;
+    border-top: 2px solid #0065fc;
+    padding-top: 13px;
+  }
+  
+  .filter-bar-btn:hover,
+  .filter-bar-btn:focus {
+    background-color: #deebff;
+  }
+  
+  .hebergement-title2:hover {
+    color: #0065fc;
+  }
+  
+  footer a:hover {
+    color: #0065fc;
+  }
+  
